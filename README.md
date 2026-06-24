@@ -220,6 +220,6 @@ This project was built to demonstrate analytical capabilities aligned with Patie
 
 **Aaron Christian**
 MS Information Systems, SDSU (2026) · GPA 3.7
-Generative AI Research Assistant, SDSU Research Foundation
+Generative AI Research Assistant
 
 [GitHub](https://github.com/AaronFChristian) · [LinkedIn](https://linkedin.com/in/aaronchristian)
