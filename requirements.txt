@@ -1,0 +1,21 @@
+# ── Core AI ──────────────────────────────────────────────────────────────────
+anthropic>=0.40.0            # Claude API (Haiku for SQL/anomaly, Sonnet for report)
+langgraph>=0.2.0             # Multi-agent orchestration graph
+langchain-core>=0.3.0        # LangGraph dependency
+
+# ── Data generation & processing ─────────────────────────────────────────────
+faker>=28.0.0                # Synthetic campaign dataset
+pandas>=2.2.0                # Cleaning, aggregation, Z-score baselines
+numpy>=1.26.0                # Numerical ops
+scipy>=1.13.0                # Welch t-test for A/B tab
+
+# ── Storage ───────────────────────────────────────────────────────────────────
+boto3>=1.35.0                # AWS S3 upload (optional path)
+python-dotenv>=1.0.0         # Load .env vars
+
+# ── UI & Visualisation ────────────────────────────────────────────────────────
+streamlit>=1.40.0            # 4-tab analyst interface
+plotly>=5.24.0               # Inline charts (bar, line, box, heatmap)
+
+# ── Dev utilities ─────────────────────────────────────────────────────────────
+ipython>=8.0.0               # Optional: useful for ad-hoc SQLite inspection

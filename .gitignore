@@ -1,0 +1,39 @@
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Data files (too large for git, regenerate with generate_data.py) ──────────
+data/campaign_data.db
+data/*.csv
+exports/*.csv
+exports/*.md
+
+# ── Secrets & credentials ─────────────────────────────────────────────────────
+*.pem
+*.key
+
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── VSCode ─────────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Streamlit cache ────────────────────────────────────────────────────────────
+.streamlit/
+
+# ── Power BI (commit the .pbix, not the raw export CSVs it reads from) ────────
+powerbi/*.csv
+
+# ── Pytest / coverage ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
